@@ -6,7 +6,7 @@ ignition:
       - source: #URL to install.json
 storage:
   files:
-  - path: /opt/onmetal-install/partitions
+    - path: /opt/onmetal-install/partitions
       overwrite: yes
       mode: 0755
       contents:
